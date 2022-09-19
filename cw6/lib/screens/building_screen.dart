@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../models/Bulding.dart';
 
-class FoodScreen extends StatelessWidget {
-  const FoodScreen({Key? key, required this.building}) : super(key: key);
+class building_screen extends StatelessWidget {
+  const building_screen({Key? key, required this.building}) : super(key: key);
 
   final Building building;
 

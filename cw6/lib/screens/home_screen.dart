@@ -1,7 +1,7 @@
+import 'package:cw6/screens/building_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../models/Bulding.dart';
-import 'building_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => FoodScreen(
+                    builder: (context) => building_screen(
                       building: buildings[index],
                     ),
                   ),
